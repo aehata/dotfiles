@@ -1,0 +1,30 @@
+[user]
+    # set name & email address.
+    #name = username
+    #email = username@example.com
+[color]
+    ui = auto
+[alias]
+    ci = commit
+    co = checkout
+    st = status -sb
+    ch = cherry -v origin
+    br = branch
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    current = log --pretty=format:'%ad %h %d' --abbrev-commit --date=short -1
+
+    # show difference between the HEAD and the index
+    staged = diff --cached
+
+    # show difference between working tree and the index
+    unstaged = diff
+
+[push]
+    default = simple
+
+[hub]
+    protocol = https
+
+[core]
+    autocrlf = input
+    editor = vim -c \"set fenc=utf-8\"
