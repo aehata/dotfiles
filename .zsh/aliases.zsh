@@ -24,6 +24,8 @@ alias dockps="docker ps -a"
 ### for terraform
 alias tfplan="terraform plan"
 alias tfapply="terraform apply"
+alias tfinit="terraform init"
+alias tfvalid="terraform validate"
 
 ### for bundler
 alias be='bundle exec'
