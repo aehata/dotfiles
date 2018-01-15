@@ -27,6 +27,8 @@ alias tfapply="terraform apply"
 alias tfinit="terraform init"
 alias tfvalid="terraform validate"
 alias tfshow="terraform show"
+alias tfstate="terraform state"
+alias tfws="terraform workspace"
 
 ### for bundler
 alias be='bundle exec'
