@@ -14,8 +14,9 @@ alias ,,='cd ../'
 alias ..='cd ..'
 alias ...='cd ../'
 
-### for zsh config
+### for dotfiles
 alias viz='vi ~/.zshrc'
+alias viv='vi ~/.vimrc'
 alias viza='vi ~/.dotfiles/.zsh/aliases.zsh'
 
 ### for docker

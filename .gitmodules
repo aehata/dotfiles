@@ -1,0 +1,54 @@
+[submodule ".vim/pack/mypackage/start/caw.vim"]
+	path = .vim/pack/mypackage/start/caw.vim
+	url = https://github.com/tyru/caw.vim
+[submodule ".vim/pack/mypackage/start/vim-airline"]
+	path = .vim/pack/mypackage/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule ".vim/pack/mypackage/start/vim-airline-themes"]
+	path = .vim/pack/mypackage/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule ".vim/pack/mypackage/start/neocomplete.vim"]
+	path = .vim/pack/mypackage/start/neocomplete.vim
+	url = https://github.com/Shougo/neocomplete.vim
+[submodule ".vim/pack/mypackage/start/nerdtree"]
+	path = .vim/pack/mypackage/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule ".vim/pack/mypackage/start/vim-nerdtree-syntax-highlight"]
+	path = .vim/pack/mypackage/start/vim-nerdtree-syntax-highlight
+	url = https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
+[submodule ".vim/pack/mypackage/start/ctrlp.vim"]
+	path = .vim/pack/mypackage/start/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
+[submodule ".vim/pack/mypackage/start/devicons"]
+	path = .vim/pack/mypackage/start/devicons
+	url = https://github.com/ryanoasis/vim-devicons
+[submodule ".vim/pack/mypackage/start/fugitive.vim"]
+	path = .vim/pack/mypackage/start/fugitive.vim
+	url = https://github.com/tpope/vim-fugitive
+[submodule ".vim/pack/mypackage/start/ale"]
+	path = .vim/pack/mypackage/start/ale
+	url = https://github.com/w0rp/ale
+[submodule ".vim/pack/mypackage/start/vim-table-mode"]
+	path = .vim/pack/mypackage/start/vim-table-mode
+	url = https://github.com/dhruvasagar/vim-table-mode
+[submodule ".vim/pack/mypackage/start/sonictemplate-vim"]
+	path = .vim/pack/mypackage/start/sonictemplate-vim
+	url = https://github.com/mattn/sonictemplate-vim
+[submodule ".vim/pack/mypackage/start/plantuml-syntax"]
+	path = .vim/pack/mypackage/start/plantuml-syntax
+	url = https://github.com/aklt/plantuml-syntax
+[submodule ".vim/pack/mypackage/start/vim-cheatsheet"]
+	path = .vim/pack/mypackage/start/vim-cheatsheet
+	url = https://github.com/reireias/vim-cheatsheet
+[submodule ".vim/pack/mypackage/start/vim-instant-markdown"]
+	path = .vim/pack/mypackage/start/vim-instant-markdown
+	url = https://github.com/suan/vim-instant-markdown
+[submodule ".vim/pack/mypackage/start/vim-markdown"]
+	path = .vim/pack/mypackage/start/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown
+[submodule ".vim/pack/mypackage/start/previm"]
+	path = .vim/pack/mypackage/start/previm
+	url = https://github.com/kannokanno/previm
+[submodule ".vim/pack/mypackage/start/vim-fugitive"]
+	path = .vim/pack/mypackage/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive

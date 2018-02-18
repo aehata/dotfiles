@@ -1,0 +1,30 @@
+@startuml
+title Sample Sequence
+hide footbox
+skinparam backgroundColor white
+skinparam handwritten true
+
+actor User
+participant "First Class" as A
+box "sample box" #LightBlue
+    participant "Second Class" as B
+    participant "Last Class" as C
+end box
+
+User -> A: DoWork
+activate A
+alt if condiiton A
+    A -> B: Create Request pattern A
+else
+    A -> B: Create Request pattern B
+end
+activate B
+B -> C: DoWork
+activate C
+C -> B: Response
+deactivate C
+B -> A: Response
+deactivate B
+A -> A: Check
+deactivate B
+@enduml
