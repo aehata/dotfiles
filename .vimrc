@@ -105,7 +105,8 @@ let g:sonictemplate_vim_template_dir = ['~/.vim/templates']
 let g:cheatsheet#cheat_file = '~/.vim/cheatsheet.md'
 
 " previm
-let g:previm_open_cmd = 'open -a Chrome'
+" let g:previm_open_cmd = 'open -a Google\ Chrome'
+let g:previm_open_cmd = 'open -a Safari'
 augroup PrevimSettings
     autocmd!
     autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
