@@ -12,6 +12,7 @@
     br = branch
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
     current = log --pretty=format:'%ad %h %d' --abbrev-commit --date=short -1
+    subup = submodule foreach git pull origin master
 
     # show difference between the HEAD and the index
     staged = diff --cached
