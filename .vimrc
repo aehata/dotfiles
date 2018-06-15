@@ -104,7 +104,8 @@ let g:sonictemplate_vim_template_dir = ['~/.vim/templates']
 " vim-cheatsheet
 let g:cheatsheet#cheat_file = '~/.vim/cheatsheet.md'
 
-" previm
+" markdown & previm
+let g:vim_markdown_folding_disabled=1 " markdownの折りたたみなし
 " let g:previm_open_cmd = 'open -a Google\ Chrome'
 let g:previm_open_cmd = 'open -a Safari'
 augroup PrevimSettings
